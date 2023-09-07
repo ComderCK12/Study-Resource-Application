@@ -1,0 +1,74 @@
+/* navbar.css */
+
+/* Navbar container */
+.navbar {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Lato, sans-serif;
+  }
+  
+  /* Navbar logo */
+  .navbar-logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Navbar links */
+  .navbar-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 20px;
+    transition: color 0.3s;
+  }
+  
+  .navbar-link:hover {
+    color: #00bcd4; /* Hover color */
+  }
+  
+  /* User info section */
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-name {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .user-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .user-logout-button {
+    background-color: #ff0000; /* Red background color for logout button */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .user-logout-button:hover {
+    background-color: #cc0000; /* Hover background color for logout button */
+  }
+  
